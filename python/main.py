@@ -16,7 +16,7 @@ HEADERS = {
 }
 
 # Allow overriding the model via env; fall back to your choice
-MODEL_ID = os.getenv("OR_MODEL_ID", "openai/gpt-oss-120b:free")
+MODEL_ID = os.getenv("OR_MODEL_ID", "meta-llama/llama-3.3-70b-instruct:free")
 
 
 # --- Helpers ---
